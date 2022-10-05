@@ -1,0 +1,1188 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.10f1 (1c7d0df0160b) revision 1867021'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'uk' Physical Memory: 8112 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+F:\programs\unity\Unity-Editor\2021.3.10f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker6
+-projectPath
+F:/studing/sem7/Unity/GameProgLab2GroupIT-91
+-logFile
+Logs/AssetImportWorker6.log
+-srvPort
+54175
+Successfully changed project path to: F:/studing/sem7/Unity/GameProgLab2GroupIT-91
+F:/studing/sem7/Unity/GameProgLab2GroupIT-91
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 225.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.10f1 (1c7d0df0160b)
+[Subsystems] Discovering subsystems at path F:/programs/unity/Unity-Editor/2021.3.10f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path F:/studing/sem7/Unity/GameProgLab2GroupIT-91/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 960 (ID=0x1401)
+    Vendor:   NVIDIA
+    VRAM:     2007 MB
+    Driver:   30.0.15.1215
+Initialize mono
+Mono path[0] = 'F:/programs/unity/Unity-Editor/2021.3.10f1/Editor/Data/Managed'
+Mono path[1] = 'F:/programs/unity/Unity-Editor/2021.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'F:/programs/unity/Unity-Editor/2021.3.10f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56240
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: F:/programs/unity/Unity-Editor/2021.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: F:/programs/unity/Unity-Editor/2021.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005002 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 220.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.112 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1112ms)
+		BeginReloadAssembly (127ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (831ms)
+			LoadAssemblies (126ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (172ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (539ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (221ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (220ms)
+				ProcessInitializeOnLoadMethodAttributes (83ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.011201 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image F:\studing\sem7\Unity\GameProgLab2GroupIT-91\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image F:\studing\sem7\Unity\GameProgLab2GroupIT-91\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 281.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.491 seconds
+Domain Reload Profiling:
+	ReloadAssembly (5492ms)
+		BeginReloadAssembly (180ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (4967ms)
+			LoadAssemblies (2389ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (793ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (164ms)
+			SetupLoadedEditorAssemblies (1529ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (282ms)
+				BeforeProcessingInitializeOnLoad (212ms)
+				ProcessInitializeOnLoadAttributes (828ms)
+				ProcessInitializeOnLoadMethodAttributes (194ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.22 seconds
+Refreshing native plugins compatible for Editor in 1.34 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6610 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 91 unused Assets / (5.3 MB). Loaded Objects now: 7060.
+Memory consumption went from 307.2 MB to 301.9 MB.
+Total: 8.733900 ms (FindLiveObjects: 0.707400 ms CreateObjectMapping: 0.751400 ms MarkObjects: 6.055100 ms  DeleteObjects: 1.218100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 264900.961657 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Prefabs/Rocks/Textures/Cliff_Mossy_B/Cliff_Mossy_B_Height.tif
+  artifactKey: Guid(701273150b2d11641b58887a1048d3bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Prefabs/Rocks/Textures/Cliff_Mossy_B/Cliff_Mossy_B_Height.tif using Guid(701273150b2d11641b58887a1048d3bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75e88e6f51d0a4e06ca5062ff3b1b5ed') in 1.879347 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Prefabs/Rocks/Models/Rock_C_02.fbx
+  artifactKey: Guid(42a5fc4117eb11e4db95a975d19a76ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Prefabs/Rocks/Models/Rock_C_02.fbx using Guid(42a5fc4117eb11e4db95a975d19a76ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ef3ed7fc2077c5f89676bb431c166e8') in 8.653525 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Prefabs/Rocks/Models/Rock_Overgrown_A.FBX
+  artifactKey: Guid(249458d5129350f42a5146a75f8b4710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Prefabs/Rocks/Models/Rock_Overgrown_A.FBX using Guid(249458d5129350f42a5146a75f8b4710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9720c32ab0b11a580b5ddcebc1576ad4') in 1.095066 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Scenes/TerrainDemoScene/ReflectionProbe-18.exr
+  artifactKey: Guid(98baa4509773243ccbd903074b95e78f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Scenes/TerrainDemoScene/ReflectionProbe-18.exr using Guid(98baa4509773243ccbd903074b95e78f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38d6be848da28deba2f68a34cffbf915') in 0.105081 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/HDRPDefaultResources/HDRenderPipelineAsset.asset
+  artifactKey: Guid(3eeee75b3d20bdd478c5fcb8ae2f716c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HDRPDefaultResources/HDRenderPipelineAsset.asset using Guid(3eeee75b3d20bdd478c5fcb8ae2f716c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bda7599db4aa522d64c93190076d847') in 0.011125 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Scenes/TerrainDemoScene/ReflectionProbe-5.exr
+  artifactKey: Guid(fefb4e9ee1a913447a4e91afdd0067cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Scenes/TerrainDemoScene/ReflectionProbe-5.exr using Guid(fefb4e9ee1a913447a4e91afdd0067cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e11320ba70aef61da37fd0cb3d947b5') in 0.082961 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Prefabs/Skybox/Models/SkyboxMountains01.fbx
+  artifactKey: Guid(33c18ab296e02854698d7522f967a05b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Prefabs/Skybox/Models/SkyboxMountains01.fbx using Guid(33c18ab296e02854698d7522f967a05b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5267d106623c756de951471b62c12a78') in 0.532788 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Prefabs/Skybox/Models/SkyboxMountains05.fbx
+  artifactKey: Guid(2267bd277b3402a42a6b5bcc4ffcd4a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Prefabs/Skybox/Models/SkyboxMountains05.fbx using Guid(2267bd277b3402a42a6b5bcc4ffcd4a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d852c6e305274cd3610f58f1009c46f') in 0.036840 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Prefabs/Rocks/Models/Rock_Overgrown_B.FBX
+  artifactKey: Guid(b2c98a43e7a97e94280599e0429f11b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Prefabs/Rocks/Models/Rock_Overgrown_B.FBX using Guid(b2c98a43e7a97e94280599e0429f11b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea6349878c96324e7352d21754c32984') in 0.101073 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Prefabs/Rocks/Textures/Cliff_Mossy_B/Cliff_Mossy_B_MaskMap.tif
+  artifactKey: Guid(ae78e231ab68a1348892ac2eb6619d29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Prefabs/Rocks/Textures/Cliff_Mossy_B/Cliff_Mossy_B_MaskMap.tif using Guid(ae78e231ab68a1348892ac2eb6619d29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9da2ba6846280ac74c2cf6841a013a5') in 0.041518 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Prefabs/Rocks/Models/Rock_Overgrown_D.fbx
+  artifactKey: Guid(d162d260ab0c07b43b7e7e90d954b83a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Prefabs/Rocks/Models/Rock_Overgrown_D.fbx using Guid(d162d260ab0c07b43b7e7e90d954b83a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7eaa90d9257ca34eef5d10c601f5d60') in 0.087895 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Scenes/TerrainDemoScene/ReflectionProbe-2.exr
+  artifactKey: Guid(dd60661b8cf38024294d07523417e1ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Scenes/TerrainDemoScene/ReflectionProbe-2.exr using Guid(dd60661b8cf38024294d07523417e1ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '480d3b806cd0b17358f4e7b4ee3d9a90') in 0.128600 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Scenes/TerrainDemoScene/ReflectionProbe-14.exr
+  artifactKey: Guid(2524f1e81df45436bb6d458b9fc4ebf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Scenes/TerrainDemoScene/ReflectionProbe-14.exr using Guid(2524f1e81df45436bb6d458b9fc4ebf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '171fe77924d361d9325afe7fd4183831') in 0.123158 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Scripts/Resources
+  artifactKey: Guid(af639cfce61049c449c263246c0b6708) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Scripts/Resources using Guid(af639cfce61049c449c263246c0b6708) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '074bdde5db499d6a190191e4914e6c71') in 0.008103 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Scenes
+  artifactKey: Guid(92a07c90fbef0af4c8a47600f87f22fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Scenes using Guid(92a07c90fbef0af4c8a47600f87f22fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '813ebf2ed1c280b35f3f94d8024d4efb') in 0.007346 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Prefabs/Rocks/Materials/Rock_Overgrown_C.mat
+  artifactKey: Guid(f4afc2a6a46b104478049f9e3aa57cfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Prefabs/Rocks/Materials/Rock_Overgrown_C.mat using Guid(f4afc2a6a46b104478049f9e3aa57cfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '350f57aeea32f76f5868e38fbd7e25b0') in 2.744546 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Scenes/TerrainDemoScene/Lightmap-0_comp_dir.png
+  artifactKey: Guid(a1b85d9238565a64e96ffa11f21c828e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Scenes/TerrainDemoScene/Lightmap-0_comp_dir.png using Guid(a1b85d9238565a64e96ffa11f21c828e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd99a30e816c3b0c7f3b214bd777b12ad') in 0.157306 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Prefabs/Skybox/Textures/Afternoon_Skybox.hdr
+  artifactKey: Guid(4f8405359dce52b41851d5cf17778811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Prefabs/Skybox/Textures/Afternoon_Skybox.hdr using Guid(4f8405359dce52b41851d5cf17778811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f289444701ad2e0e7551a175db6cc52c') in 0.426832 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Prefabs/Rocks/Textures/Cliff_Mossy_B/Cliff_Mossy_B_Normal.tif
+  artifactKey: Guid(998afff0a8c6b4f438a62873b64368dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Prefabs/Rocks/Textures/Cliff_Mossy_B/Cliff_Mossy_B_Normal.tif using Guid(998afff0a8c6b4f438a62873b64368dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ea2d4a133ffed09694b350763117a75') in 0.028807 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/HDRPDefaultResources/SkinDiffusionProfile.asset
+  artifactKey: Guid(3c7ab2699d38d7a48942e2b2ecea574f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HDRPDefaultResources/SkinDiffusionProfile.asset using Guid(3c7ab2699d38d7a48942e2b2ecea574f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4e7752bc0311c8b707966596ca47b29') in 0.006807 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Scripts/Editor
+  artifactKey: Guid(ea274ba764baf57499a2f2c1918e2b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Scripts/Editor using Guid(ea274ba764baf57499a2f2c1918e2b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '508a6061696b6bd39215545e8eb0e56d') in 0.007122 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Scenes/TerrainDemoScene
+  artifactKey: Guid(80a259157012e544991471f97379bc11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Scenes/TerrainDemoScene using Guid(80a259157012e544991471f97379bc11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97f325b26237eeb02d6a95c2de8a979e') in 0.006025 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Scripts/SceneAnnotation.cs
+  artifactKey: Guid(50237962b3ea329438780553008c1e4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Scripts/SceneAnnotation.cs using Guid(50237962b3ea329438780553008c1e4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f5c6968d4098477aac7890a23da5ab3') in 0.015621 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Prefabs/Rocks/Models/Rock_Overgrown_C.FBX
+  artifactKey: Guid(28e5b3b349d66c24486540309217e20d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Prefabs/Rocks/Models/Rock_Overgrown_C.FBX using Guid(28e5b3b349d66c24486540309217e20d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3774edaf10c7dd2714424bbf0367d02') in 0.110063 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Prefabs/Skybox/Models/SkyboxMountains02.fbx
+  artifactKey: Guid(bf2e85838cc80584b9ec701387e7ad2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Prefabs/Skybox/Models/SkyboxMountains02.fbx using Guid(bf2e85838cc80584b9ec701387e7ad2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afa5fa22ecc5614420bf20a015162971') in 0.043392 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Scenes/TerrainDemoScene/ReflectionProbe-8.exr
+  artifactKey: Guid(16b518961bbadba44b582514995878c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Scenes/TerrainDemoScene/ReflectionProbe-8.exr using Guid(16b518961bbadba44b582514995878c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d93a2375a1d0a0a3b6bebd1a41c8106') in 0.093832 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Scenes/TerrainDemoScene/ReflectionProbe-16.exr
+  artifactKey: Guid(780fd63394fc17541963e0363dd9d55d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Scenes/TerrainDemoScene/ReflectionProbe-16.exr using Guid(780fd63394fc17541963e0363dd9d55d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e159125cb9a50c7a5866fd35a342a4e') in 0.087202 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Scripts/Readme.cs
+  artifactKey: Guid(fcf7219bab7fe46a1ad266029b2fee19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Scripts/Readme.cs using Guid(fcf7219bab7fe46a1ad266029b2fee19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2b868457d98ba89203b747cf9886c0f') in 0.005318 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Prefabs/Rocks/Materials/Rock_Overgrown_B.mat
+  artifactKey: Guid(dde3f8edf14984b4a8709892ab5c4c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Prefabs/Rocks/Materials/Rock_Overgrown_B.mat using Guid(dde3f8edf14984b4a8709892ab5c4c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54d6acd6e6351d7a3240b2709bc76da9') in 1.088760 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Prefabs/Rocks/Models/Rock_B_02.fbx
+  artifactKey: Guid(d08e58249c8b5444cb22e208478dc55f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Prefabs/Rocks/Models/Rock_B_02.fbx using Guid(d08e58249c8b5444cb22e208478dc55f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a12579f4b16b6f1b1e105e2bfb7c90aa') in 0.162133 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Prefabs/Rocks/Textures/Cliff_Mossy_B/Cliff_Mossy_B_BaseColor.tif
+  artifactKey: Guid(014ab6ba5575a9f44beabf8446cb37b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Prefabs/Rocks/Textures/Cliff_Mossy_B/Cliff_Mossy_B_BaseColor.tif using Guid(014ab6ba5575a9f44beabf8446cb37b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97e812ea0cb3e41caa26270e9c7fec5a') in 0.037843 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Prefabs/Rocks/Textures/Cliff_Mossy_A/Cliff_Mossy_A_Height.tif
+  artifactKey: Guid(3126deba499644e42aa8cfc8c52f9c86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Prefabs/Rocks/Textures/Cliff_Mossy_A/Cliff_Mossy_A_Height.tif using Guid(3126deba499644e42aa8cfc8c52f9c86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccf01228db3bcac308bd05c87e883af6') in 0.019032 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Prefabs/Rocks/Textures/Rock_Overgrown_B/Rock_Overgrown_B_Normal.tif
+  artifactKey: Guid(cecdcdb355a6b6a4dbd0acfeae751354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Prefabs/Rocks/Textures/Rock_Overgrown_B/Rock_Overgrown_B_Normal.tif using Guid(cecdcdb355a6b6a4dbd0acfeae751354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2b3a0766019dda4c1b192119aa87d71') in 0.026243 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Prefabs/Rocks/Materials/Rock_B.mat
+  artifactKey: Guid(1755a5b76c1de4c4b94a31d0addf6190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Prefabs/Rocks/Materials/Rock_B.mat using Guid(1755a5b76c1de4c4b94a31d0addf6190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07f609fea3e2f0bb6be3e8ce284fcab7') in 0.033522 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/HDRPDefaultResources/FoliageDiffusionProfile.asset
+  artifactKey: Guid(f5424492634b1c140bb9cefa02f8481c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HDRPDefaultResources/FoliageDiffusionProfile.asset using Guid(f5424492634b1c140bb9cefa02f8481c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d30eb780ca59551cb27333dbb06b0d1') in 0.009423 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Scenes/TerrainDemoScene/ReflectionProbe-4.exr
+  artifactKey: Guid(30d52396acf8fda43b349411aef86d8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Scenes/TerrainDemoScene/ReflectionProbe-4.exr using Guid(30d52396acf8fda43b349411aef86d8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68d5871d557a22c46ec1d48e94e50cb9') in 0.098035 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Prefabs/Rocks/Materials/Rock_D.mat
+  artifactKey: Guid(93f26f1dcd275b04fa902391e368e102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Prefabs/Rocks/Materials/Rock_D.mat using Guid(93f26f1dcd275b04fa902391e368e102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99c788dd0e4668d3c7747f96f14c0efb') in 1.449113 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Prefabs/Skybox/Models/SkyboxMountains08.fbx
+  artifactKey: Guid(573a28e0b978e624ba8fe4e35cab352d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Prefabs/Skybox/Models/SkyboxMountains08.fbx using Guid(573a28e0b978e624ba8fe4e35cab352d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14b9263525d286e11dcb3d98e340ce72') in 0.068046 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Scripts/Help_Icon.png
+  artifactKey: Guid(34f556d724b1bbf4097ca6220db2c581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Scripts/Help_Icon.png using Guid(34f556d724b1bbf4097ca6220db2c581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a7c28c89a5a6c7c6e63e0f4efe6f87d') in 0.034571 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e55ccaa32d8e5c1de03c07a5412c8c3c') in 0.007376 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Prefabs/Skybox/Models/SkyboxHorizon.fbx
+  artifactKey: Guid(7c5bf92a856be0442a2cc94ab6422628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Prefabs/Skybox/Models/SkyboxHorizon.fbx using Guid(7c5bf92a856be0442a2cc94ab6422628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d4d1920efadae2ab1f77a91a3050af9') in 0.112353 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Scenes/TerrainDemoScene/ReflectionProbe-7.exr
+  artifactKey: Guid(bb90aa7f940977e4d9bc94f1d91a1218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Scenes/TerrainDemoScene/ReflectionProbe-7.exr using Guid(bb90aa7f940977e4d9bc94f1d91a1218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7c2769bdcc45bcba245718d5a0b2a51') in 0.108840 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Prefabs/Rocks/Models/Rock_B_01.fbx
+  artifactKey: Guid(8d8873bd1f85c3942bf7f961cec01074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Prefabs/Rocks/Models/Rock_B_01.fbx using Guid(8d8873bd1f85c3942bf7f961cec01074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '256ed0605595ee3b1f1f7177dd082166') in 0.151952 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Prefabs/Skybox/Models/SkyboxMountains04.fbx
+  artifactKey: Guid(e9b68272397f8694abfd9cbfd86875f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Prefabs/Skybox/Models/SkyboxMountains04.fbx using Guid(e9b68272397f8694abfd9cbfd86875f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2bcb65faebd1141042694bd73a67553') in 0.076055 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Prefabs/Rocks/Textures/Cliff_Mossy_A/Cliff_Mossy_A_BaseColor.tif
+  artifactKey: Guid(bdee92c9513af5544943c766cbe273eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Prefabs/Rocks/Textures/Cliff_Mossy_A/Cliff_Mossy_A_BaseColor.tif using Guid(bdee92c9513af5544943c766cbe273eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4493bbeb380be7289827df4769859d2b') in 0.024171 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Prefabs/Rocks/Materials/Rock_Overgrown_D.mat
+  artifactKey: Guid(799e8ee0a2f8df54892652191374349d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Prefabs/Rocks/Materials/Rock_Overgrown_D.mat using Guid(799e8ee0a2f8df54892652191374349d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd238f72d6cc179a7989d3cad69b328e5') in 0.553769 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Scenes/TerrainDemoScene/ReflectionProbe-13.exr
+  artifactKey: Guid(ff66c9760e94b42c485070d0867cee20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Scenes/TerrainDemoScene/ReflectionProbe-13.exr using Guid(ff66c9760e94b42c485070d0867cee20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '356343064080eb781fb61f8bb00a3fc2') in 0.133541 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/HDRPDefaultResources/HDRenderPipelineGlobalSettings.asset
+  artifactKey: Guid(63035544913122547a28fc48032b115f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HDRPDefaultResources/HDRenderPipelineGlobalSettings.asset using Guid(63035544913122547a28fc48032b115f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6324162426d6104b6a8b4db95b0c5414') in 0.010241 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Prefabs/Skybox/Models/SkyboxMountains07.fbx
+  artifactKey: Guid(097acba7e17de2a428ec879c4fb71858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Prefabs/Skybox/Models/SkyboxMountains07.fbx using Guid(097acba7e17de2a428ec879c4fb71858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9e24f843e2688c0eb51ee526c11352d') in 0.080699 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Prefabs/Rocks/Materials/Rock_A.mat
+  artifactKey: Guid(5d53f2d3d2871cc40bfce7f567098cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Prefabs/Rocks/Materials/Rock_A.mat using Guid(5d53f2d3d2871cc40bfce7f567098cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c0344c36b001e18dbc8bb522b70d23f') in 0.030608 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/HDRPDefaultResources/DefaultSettingsVolumeProfile.asset
+  artifactKey: Guid(1cdf7de08571cc244bbb30879bf396dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HDRPDefaultResources/DefaultSettingsVolumeProfile.asset using Guid(1cdf7de08571cc244bbb30879bf396dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae56d504788c958dbd55087cdecdfd1b') in 0.010259 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Scenes/TerrainDemoScene/ReflectionProbe-10.exr
+  artifactKey: Guid(273b81726a5bf534c9b6ffe567a761ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Scenes/TerrainDemoScene/ReflectionProbe-10.exr using Guid(273b81726a5bf534c9b6ffe567a761ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f505859362698f3a78e4aaa84d18cfb') in 0.113649 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000501 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Scenes/TerrainDemoScene/ReflectionProbe-17.exr
+  artifactKey: Guid(e8b1dccf8d6bb4f0c8d48deb56098830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Scenes/TerrainDemoScene/ReflectionProbe-17.exr using Guid(e8b1dccf8d6bb4f0c8d48deb56098830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b23235744389238188174a43c3482c8') in 0.103237 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Prefabs/Rocks/Models/Rock_A_01.fbx
+  artifactKey: Guid(3bb55b9dc42e34c47b35dea94575a162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Prefabs/Rocks/Models/Rock_A_01.fbx using Guid(3bb55b9dc42e34c47b35dea94575a162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f8aedb438a440395e4d988fa2ef4592') in 0.275175 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Scenes/TerrainDemoScene/ReflectionProbe-12.exr
+  artifactKey: Guid(10b593061dada2c43a45494f2ce433ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Scenes/TerrainDemoScene/ReflectionProbe-12.exr using Guid(10b593061dada2c43a45494f2ce433ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '308704fef3c991dbc4a2681c905daa80') in 0.231077 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Prefabs/Skybox/Models/SkyboxMountains06.fbx
+  artifactKey: Guid(e089523ca55650645b4d4e8f5602bb78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Prefabs/Skybox/Models/SkyboxMountains06.fbx using Guid(e089523ca55650645b4d4e8f5602bb78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b27a7e28cee70d87ccff71e0f2c6d736') in 0.085517 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Scenes/TerrainDemoScene/ReflectionProbe-0.exr
+  artifactKey: Guid(3edef869bbd14304ab806df44d3728cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Scenes/TerrainDemoScene/ReflectionProbe-0.exr using Guid(3edef869bbd14304ab806df44d3728cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70b2d72f9c03fe8478a49cdfc87b833f') in 0.092971 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Prefabs/Rocks/Textures/Rock_Overgrown_B/Rock_Overgrown_B_BaseColor.tif
+  artifactKey: Guid(a9368c41f2af54a48ab5332ac3686640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Prefabs/Rocks/Textures/Rock_Overgrown_B/Rock_Overgrown_B_BaseColor.tif using Guid(a9368c41f2af54a48ab5332ac3686640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2a5811056ae54459841bfcb062f37ed') in 0.032428 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Scenes/TerrainDemoScene/ReflectionProbe-11.exr
+  artifactKey: Guid(78c320391b8faf7438f2de8b077ebd22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Scenes/TerrainDemoScene/ReflectionProbe-11.exr using Guid(78c320391b8faf7438f2de8b077ebd22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc8c72fa72506f9bf79faf55ebebd5ae') in 0.133127 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Prefabs/Rocks/Textures/Cliff_Mossy_A/Cliff_Mossy_A_Normal.tif
+  artifactKey: Guid(132963cfd531c2e42af8a2286594f0b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Prefabs/Rocks/Textures/Cliff_Mossy_A/Cliff_Mossy_A_Normal.tif using Guid(132963cfd531c2e42af8a2286594f0b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d8f4f1c864e62b3a3bf70ec7aed84bd') in 0.026574 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Scenes/TerrainDemoScene/ReflectionProbe-9.exr
+  artifactKey: Guid(68a7cac4d5349c74bbb07bf7a6fa2e3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Scenes/TerrainDemoScene/ReflectionProbe-9.exr using Guid(68a7cac4d5349c74bbb07bf7a6fa2e3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1859df7b21e6b3d40dbf1e92974b730') in 0.129601 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Prefabs/Rocks/Materials/Rock_Overgrown_A.mat
+  artifactKey: Guid(fba07ae0ac6dbe94188dc1bd2c505bd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Prefabs/Rocks/Materials/Rock_Overgrown_A.mat using Guid(fba07ae0ac6dbe94188dc1bd2c505bd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3470cc645f28b66f9371d96a8922ab70') in 1.049153 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Prefabs/Skybox/Textures/SkyboxHorizon_Albedo.png
+  artifactKey: Guid(0687d937815beaa43afaee59138e9e09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Prefabs/Skybox/Textures/SkyboxHorizon_Albedo.png using Guid(0687d937815beaa43afaee59138e9e09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5599f582e42ecf8fbe7335432f734557') in 0.015486 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Prefabs/Rocks/Textures/Rock_Overgrown_B/Rock_Overgrown_B_LayerMask.tif
+  artifactKey: Guid(76ac408a18a332d43b6e83a5cffa8adf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Prefabs/Rocks/Textures/Rock_Overgrown_B/Rock_Overgrown_B_LayerMask.tif using Guid(76ac408a18a332d43b6e83a5cffa8adf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf29525edc6d169445ac9c469e9ed6b4') in 0.053004 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Scenes/TerrainDemoScene/LightingData.asset
+  artifactKey: Guid(09203aedde0998844a074bcedd4e8df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Scenes/TerrainDemoScene/LightingData.asset using Guid(09203aedde0998844a074bcedd4e8df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f74902660fdc96feb96f769fa16d9fd') in 0.034303 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Prefabs/Rocks/Textures/Cliff_Mossy_A/Cliff_Mossy_A_MaskMap.tif
+  artifactKey: Guid(722382cc28601344ca7b7946f7a272df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Prefabs/Rocks/Textures/Cliff_Mossy_A/Cliff_Mossy_A_MaskMap.tif using Guid(722382cc28601344ca7b7946f7a272df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92d21bbdbedff93521b89d5ec38745ba') in 0.028603 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Scripts/TerrainTreeToggle.cs
+  artifactKey: Guid(2604d658e60cd9948ae5544d939ad153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Scripts/TerrainTreeToggle.cs using Guid(2604d658e60cd9948ae5544d939ad153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdd3d4e54c59309a7f3ec7c5698cba97') in 0.007379 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Prefabs/Rocks/Models/Rock_C_01.fbx
+  artifactKey: Guid(9ec4ab395efae3f44b859f77742dd451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Prefabs/Rocks/Models/Rock_C_01.fbx using Guid(9ec4ab395efae3f44b859f77742dd451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3ec6d2358a68b0e063e14e666a8b329') in 0.154753 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Scenes/TerrainDemoScene/ReflectionProbe-3.exr
+  artifactKey: Guid(4318ce0a6e1260d46a8cbee2714bafdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Scenes/TerrainDemoScene/ReflectionProbe-3.exr using Guid(4318ce0a6e1260d46a8cbee2714bafdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9f69307d6a915cf3592e5dd39e69bda') in 0.113938 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Scripts
+  artifactKey: Guid(93c91d82c0c474b4ea0351431fbb859f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Scripts using Guid(93c91d82c0c474b4ea0351431fbb859f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ccf41688c6a231bb818b57d66df4463') in 0.006394 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Scenes/TerrainDemoScene/Lightmap-0_comp_light.exr
+  artifactKey: Guid(a37b584766c18fb4b99faf75f9bde065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Scenes/TerrainDemoScene/Lightmap-0_comp_light.exr using Guid(a37b584766c18fb4b99faf75f9bde065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8521bc38564ae871e748ced6c1cff9d3') in 0.024866 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/HDRPDefaultResources/DefaultLookDevProfile.asset
+  artifactKey: Guid(60e2f4473005d9d4d957b58b0105c1bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HDRPDefaultResources/DefaultLookDevProfile.asset using Guid(60e2f4473005d9d4d957b58b0105c1bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc2491b72997bfbcaf5516caf794d63b') in 0.007867 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Prefabs/Rocks/Textures/Rock_Overgrown_B/Rock_Overgrown_B_MaskMap.tif
+  artifactKey: Guid(4893ad11683e5c54a88a292110c2e749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Prefabs/Rocks/Textures/Rock_Overgrown_B/Rock_Overgrown_B_MaskMap.tif using Guid(4893ad11683e5c54a88a292110c2e749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94bb41d21a22e1e9b189042f92d3be2a') in 0.019425 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Prefabs/Rocks/Models/Rock_A_02.fbx
+  artifactKey: Guid(0347a2ca593e212468d38a00c0f15925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Prefabs/Rocks/Models/Rock_A_02.fbx using Guid(0347a2ca593e212468d38a00c0f15925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ec764f46babb39e3df4b3919f1bad6e') in 0.222287 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Prefabs/Skybox/Models/SkyboxMountains03.fbx
+  artifactKey: Guid(5111f521d7066864f84549af2a313da9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Prefabs/Skybox/Models/SkyboxMountains03.fbx using Guid(5111f521d7066864f84549af2a313da9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ea808af28e9990b05f8e61de4a948ed') in 0.106914 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Prefabs/Rocks/Models/Rock_D.FBX
+  artifactKey: Guid(b82f43319bb1242489563afe8c25f073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Prefabs/Rocks/Models/Rock_D.FBX using Guid(b82f43319bb1242489563afe8c25f073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7e2b36d56aa8f7941f3f67521cc6acf') in 0.188253 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Scenes/TerrainDemoScene/ReflectionProbe-15.exr
+  artifactKey: Guid(5bcd67735e6101d4188b01c59f1337fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Scenes/TerrainDemoScene/ReflectionProbe-15.exr using Guid(5bcd67735e6101d4188b01c59f1337fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25f2cd0f049e4dd326b46b1de355c642') in 0.101671 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Prefabs/Skybox/Textures/SkyboxHorizon_Normals.png
+  artifactKey: Guid(8ec8e8a09f13017499f254552ea558b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Prefabs/Skybox/Textures/SkyboxHorizon_Normals.png using Guid(8ec8e8a09f13017499f254552ea558b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cedcec6b1ac10d32bfc834949ef8e73') in 0.018835 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Prefabs/Skybox/Materials/SkyboxHorizon_Mat.mat
+  artifactKey: Guid(1a2b9cdb7c003454785f9381181bce36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Prefabs/Skybox/Materials/SkyboxHorizon_Mat.mat using Guid(1a2b9cdb7c003454785f9381181bce36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af678672dc5221d3a2cfdc3e0fbaabb7') in 0.039919 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Prefabs/Rocks/Materials/Rock_C.mat
+  artifactKey: Guid(8ea1a0ccea574fe478c4389cb5ecc052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Prefabs/Rocks/Materials/Rock_C.mat using Guid(8ea1a0ccea574fe478c4389cb5ecc052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '912cd47805b6d7cdfa18834b5aec9d67') in 0.032321 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Readme.asset
+  artifactKey: Guid(83c2ed844a8c74b779a4c823d16594b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Readme.asset using Guid(83c2ed844a8c74b779a4c823d16594b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '344b1021f23b3a6a1ffd98843e56585b') in 0.003895 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Scenes/TerrainDemoScene/ReflectionProbe-6.exr
+  artifactKey: Guid(2cfdc81520cc12545ba438f075ef7817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Scenes/TerrainDemoScene/ReflectionProbe-6.exr using Guid(2cfdc81520cc12545ba438f075ef7817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1015885f2c5fdb7c9f4dd180a98f4f4') in 0.102709 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Scenes/TerrainDemoScene/ReflectionProbe-1.exr
+  artifactKey: Guid(9be413792507a744a8d8b9597e4fd816) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Scenes/TerrainDemoScene/ReflectionProbe-1.exr using Guid(9be413792507a744a8d8b9597e4fd816) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11cccab459760d1512aad19570ee77e3') in 0.116369 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 51.672226 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Prefabs/UI/Fader.prefab
+  artifactKey: Guid(1bba1089884f54c28a3beed5b4192e68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Prefabs/UI/Fader.prefab using Guid(1bba1089884f54c28a3beed5b4192e68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82e279f6d6dc49bbeda56b4e9dfe7828') in 0.061481 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.300692 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Prefabs/UI/Sprites/GradientFill_Sprite.tif
+  artifactKey: Guid(7fe06966e665a4c0eaf55777cb9bedbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Prefabs/UI/Sprites/GradientFill_Sprite.tif using Guid(7fe06966e665a4c0eaf55777cb9bedbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dd7b97ad1515316525908adbd36cabc') in 0.043353 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.392486 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Prefabs/Water/Materials/WaterDepthBased.mat
+  artifactKey: Guid(606a2cf006c309d47bb99f421ada20ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Prefabs/Water/Materials/WaterDepthBased.mat using Guid(606a2cf006c309d47bb99f421ada20ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86dbb1930599292ccce4941af7128d37') in 17.459470 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.797247 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Prefabs/Water/Textures/Moss_A_BaseColor.tif
+  artifactKey: Guid(59d54c2b830cb6143bcd067df1a0488a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Prefabs/Water/Textures/Moss_A_BaseColor.tif using Guid(59d54c2b830cb6143bcd067df1a0488a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36cf3733f58609f2312642c20d4aebdf') in 0.143139 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Prefabs/Water/Textures/Water_Normal.png
+  artifactKey: Guid(e1401fe0724c9c94381b897844907e4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Prefabs/Water/Textures/Water_Normal.png using Guid(e1401fe0724c9c94381b897844907e4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29d68a0acc30fb97798cd0634d6c11bc') in 0.024416 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Prefabs/Water/Textures/Moss_B_BaseColor.tif
+  artifactKey: Guid(9cb1644a840e1be49b7dcbd2be19ca01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Prefabs/Water/Textures/Moss_B_BaseColor.tif using Guid(9cb1644a840e1be49b7dcbd2be19ca01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2c89d5be7b14cabae7553e01d7030df') in 0.023606 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Prefabs/Water/Textures/Moss_A_Normal.tif
+  artifactKey: Guid(c0b8d62cf93b06342a8e23d31a75367e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Prefabs/Water/Textures/Moss_A_Normal.tif using Guid(c0b8d62cf93b06342a8e23d31a75367e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e70f5385145efafe64eef99fd48b24e') in 0.024323 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Prefabs/Water/Textures/Moss_B_Normal.tif
+  artifactKey: Guid(29988b36784a2f840a5ce2f8704e5c98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Prefabs/Water/Textures/Moss_B_Normal.tif using Guid(29988b36784a2f840a5ce2f8704e5c98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '792161656c1610bcd6cb5426887faa9b') in 0.024723 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 26.371015 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Prefabs/Skybox/Materials/SkyboxHorizon_Albedo.mat
+  artifactKey: Guid(9d78ba33b1e9c6e4da8f491b1b616ad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Prefabs/Skybox/Materials/SkyboxHorizon_Albedo.mat using Guid(9d78ba33b1e9c6e4da8f491b1b616ad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa01984dbb08e497625aef9233f01414') in 0.019276 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Prefabs/Skybox/Materials/SkyboxHorizon_Normals.mat
+  artifactKey: Guid(3808064ce27dcbf46ad9b7284c9e51f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Prefabs/Skybox/Materials/SkyboxHorizon_Normals.mat using Guid(3808064ce27dcbf46ad9b7284c9e51f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75ee0675a5cd74501260bd5712857e11') in 0.025040 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.104108 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Prefabs/Rocks/Materials/Rock_B.mat
+  artifactKey: Guid(1755a5b76c1de4c4b94a31d0addf6190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Prefabs/Rocks/Materials/Rock_B.mat using Guid(1755a5b76c1de4c4b94a31d0addf6190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd181d4cedf930d48fc147458697e2fea') in 0.021704 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.285494 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Prefabs/Rocks/Models/Rock_B_01.fbx
+  artifactKey: Guid(8d8873bd1f85c3942bf7f961cec01074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Prefabs/Rocks/Models/Rock_B_01.fbx using Guid(8d8873bd1f85c3942bf7f961cec01074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec8a28d001533271bf0533362d240c9a') in 0.112901 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Prefabs/Rocks/Models/Rock_B_02.fbx
+  artifactKey: Guid(d08e58249c8b5444cb22e208478dc55f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Prefabs/Rocks/Models/Rock_B_02.fbx using Guid(d08e58249c8b5444cb22e208478dc55f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bcdc70848717b1ad74996e06d87e1c8') in 0.108169 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 144.280120 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Prefabs/Details/Models/Bush_A.asset
+  artifactKey: Guid(0c4301a6ce8e5964c8df62a78aca15d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Prefabs/Details/Models/Bush_A.asset using Guid(0c4301a6ce8e5964c8df62a78aca15d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a74fab25f0c2074d0f63a3d962ea1f6') in 0.057431 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Prefabs/Details/Models/Bush_Red.asset
+  artifactKey: Guid(c6d1e88a3a0c3cf4581050100e178cab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Prefabs/Details/Models/Bush_Red.asset using Guid(c6d1e88a3a0c3cf4581050100e178cab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5ec5b51d1c785651740522c3662af88') in 0.059543 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Prefabs/Details/Models/Fern_C.asset
+  artifactKey: Guid(19f3cdde7d5104c4da897ac17045ddfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Prefabs/Details/Models/Fern_C.asset using Guid(19f3cdde7d5104c4da897ac17045ddfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da84dff0fae1994ba95bc64c558e850c') in 0.024532 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Prefabs/Details/Models/GrassDry_D.asset
+  artifactKey: Guid(9a249c33299836d45ae597069d9324e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Prefabs/Details/Models/GrassDry_D.asset using Guid(9a249c33299836d45ae597069d9324e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6e3024719af1c5d063fb95fc7f43133') in 0.016661 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Prefabs/Details/Models/GrassDry_B.asset
+  artifactKey: Guid(95c06121a3f5d524c8cad4ff4e302950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Prefabs/Details/Models/GrassDry_B.asset using Guid(95c06121a3f5d524c8cad4ff4e302950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c76c877d3c205e04ce0b39c545dc8fa4') in 0.031267 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Prefabs/Details/Models/Grass_B.asset
+  artifactKey: Guid(255522b0d4257624f93e110d4a6135ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Prefabs/Details/Models/Grass_B.asset using Guid(255522b0d4257624f93e110d4a6135ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c850732b0d375d1ba6521985a3bb86cc') in 0.022635 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Prefabs/Details/Models/BushDry_B.asset
+  artifactKey: Guid(8d68c191594d5a24baee81cc22acf55b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Prefabs/Details/Models/BushDry_B.asset using Guid(8d68c191594d5a24baee81cc22acf55b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b57c1a65c85c518120416f73af0f61b') in 0.026155 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Prefabs/Details/Models/Heather_A.asset
+  artifactKey: Guid(211a44eba6f5ca34ea3d3ac34bbc3469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Prefabs/Details/Models/Heather_A.asset using Guid(211a44eba6f5ca34ea3d3ac34bbc3469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15f2319fe6250adaa10094946590f7eb') in 0.032476 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Prefabs/Details/Models/Heather_B.asset
+  artifactKey: Guid(fa4ffd32709146c448c403bfd045f3fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Prefabs/Details/Models/Heather_B.asset using Guid(fa4ffd32709146c448c403bfd045f3fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b848c5b4d7eeb39166100d25ca20f704') in 0.018271 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Prefabs/Details/Models/Fern_A.asset
+  artifactKey: Guid(2532d22dd52b5854189d40a50540b705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Prefabs/Details/Models/Fern_A.asset using Guid(2532d22dd52b5854189d40a50540b705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '782ff2f263ecd40a24ce02d5e6ebb6f3') in 0.049581 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Prefabs/Details/Models/BushDry_A.asset
+  artifactKey: Guid(3b8f934b79237034b816dfcc8369e9fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Prefabs/Details/Models/BushDry_A.asset using Guid(3b8f934b79237034b816dfcc8369e9fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de173ff70aad3b4473ae2c18754c7237') in 0.018525 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Prefabs/Details/Models/Bush_Twig.asset
+  artifactKey: Guid(e9eae922c4f3be043ab536ba7bf7706d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Prefabs/Details/Models/Bush_Twig.asset using Guid(e9eae922c4f3be043ab536ba7bf7706d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4ef21b96d5715a75328e16e43811e91') in 0.042575 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Prefabs/Details/Models/Grass_D.asset
+  artifactKey: Guid(15afb6df1db838d409d503b01fb48944) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Prefabs/Details/Models/Grass_D.asset using Guid(15afb6df1db838d409d503b01fb48944) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '563dea6295eba9d6eeccd80110f98f81') in 0.021560 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Prefabs/Details/Models/Bush_B.asset
+  artifactKey: Guid(1ea33222cad50ad49aa4978bc84846e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Prefabs/Details/Models/Bush_B.asset using Guid(1ea33222cad50ad49aa4978bc84846e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '328ca2dded071fa92d55fb0417f83900') in 0.015114 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Prefabs/Details/Models/Fern_B.asset
+  artifactKey: Guid(2f9d2984488477d498e8d5c61756f557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Prefabs/Details/Models/Fern_B.asset using Guid(2f9d2984488477d498e8d5c61756f557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1c809f2f29d1ae4ff6abc433a670bf3') in 0.017115 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Prefabs/Details/Models/Shrub.asset
+  artifactKey: Guid(f9b4f3bf18c47064db8d653d9b3ddf38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Prefabs/Details/Models/Shrub.asset using Guid(f9b4f3bf18c47064db8d653d9b3ddf38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1cf3dd950ed0c382de7dc2cadaaa9d8') in 0.021015 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Prefabs/Details/Models/Grass_A.asset
+  artifactKey: Guid(c8542799e804ef04eb35ba93777008a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Prefabs/Details/Models/Grass_A.asset using Guid(c8542799e804ef04eb35ba93777008a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac42ee514453c8b6f296443a9666f9c3') in 0.027042 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Prefabs/Details/Models/GrassDry_C.asset
+  artifactKey: Guid(34620cf8cdb76ba4b9af2acb627f7846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Prefabs/Details/Models/GrassDry_C.asset using Guid(34620cf8cdb76ba4b9af2acb627f7846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb580b1947bea24d068b48e0c80565ec') in 0.019667 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Prefabs/Details/Models/Grass_C.asset
+  artifactKey: Guid(e4775a09ccd762a42b26cb448a2763f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Prefabs/Details/Models/Grass_C.asset using Guid(e4775a09ccd762a42b26cb448a2763f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1196401d85270abd856476c07a6f14b') in 0.021159 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Prefabs/Details/Models/GrassDry_A.asset
+  artifactKey: Guid(09a1659fd760b4145bd8d18504bd1bff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Prefabs/Details/Models/GrassDry_A.asset using Guid(09a1659fd760b4145bd8d18504bd1bff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '238cec09190879723354a18bbf2acd2c') in 0.016591 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.518846 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Prefabs/Details/Textures/Bush_A_BaseColor.tif
+  artifactKey: Guid(eb04da16cbc16c9488332336fb11b965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Prefabs/Details/Textures/Bush_A_BaseColor.tif using Guid(eb04da16cbc16c9488332336fb11b965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '923005b7841ef4c7b4a661077d3ba2a4') in 0.116721 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Prefabs/Details/Textures/Default_Detail.tif
+  artifactKey: Guid(7af868897b1a1c247b7750a033e10d8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Prefabs/Details/Textures/Default_Detail.tif using Guid(7af868897b1a1c247b7750a033e10d8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bbfb618562070b5394d54ee0437e48c') in 0.053780 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Prefabs/Details/Textures/Grass_A_MaskMap.tif
+  artifactKey: Guid(e9a1c1b060b9b2c4989233f1037f9d5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Prefabs/Details/Textures/Grass_A_MaskMap.tif using Guid(e9a1c1b060b9b2c4989233f1037f9d5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fb1d258647fb05c18741ecfc15ba355') in 0.051042 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Prefabs/Details/Textures/Bush_Twig_Thickness.tif
+  artifactKey: Guid(fe776dd9b1cb96246a83059626ea99f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Prefabs/Details/Textures/Bush_Twig_Thickness.tif using Guid(fe776dd9b1cb96246a83059626ea99f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3617df73cc62b1411ba9dc9f85e6a73') in 0.065097 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Prefabs/Details/Textures/Shrub_Normal.tif
+  artifactKey: Guid(5b6e769e83c9633408dab0ad517fc7bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Prefabs/Details/Textures/Shrub_Normal.tif using Guid(5b6e769e83c9633408dab0ad517fc7bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17e40fc947650ea871fc599ff6e00cc3') in 0.054663 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Prefabs/Details/Textures/Shrub_BaseColor.tif
+  artifactKey: Guid(1348350b78dbb1947ab058c188bcf99b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Prefabs/Details/Textures/Shrub_BaseColor.tif using Guid(1348350b78dbb1947ab058c188bcf99b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cda32a695418789eeaed5f72267e67ac') in 0.078629 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Prefabs/Details/Textures/Shrub_Thickness.tif
+  artifactKey: Guid(eeb147f9ea9e0d744837f4a4936890f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Prefabs/Details/Textures/Shrub_Thickness.tif using Guid(eeb147f9ea9e0d744837f4a4936890f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3258b78d2eb821b5bede33a3ac5f3158') in 0.035236 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Prefabs/Details/Textures/Grass_C_MaskMap.tif
+  artifactKey: Guid(20e5036a7508c01479cdb7338b1c86cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Prefabs/Details/Textures/Grass_C_MaskMap.tif using Guid(20e5036a7508c01479cdb7338b1c86cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2be2096d1d4c236a04612f7e658cd21') in 0.072293 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Prefabs/Details/Textures/Bush_Twig_Normal.tif
+  artifactKey: Guid(bb37b3ee0574d9f41b6660d3a38b0cf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Prefabs/Details/Textures/Bush_Twig_Normal.tif using Guid(bb37b3ee0574d9f41b6660d3a38b0cf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b661a822ef4a3585865ff0d7180bd250') in 0.048838 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Prefabs/Details/Textures/Heather_Thickness.tif
+  artifactKey: Guid(0942f310de78e664aaaca6d7d276cb61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Prefabs/Details/Textures/Heather_Thickness.tif using Guid(0942f310de78e664aaaca6d7d276cb61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8ef2b880c66e395adb04920c518f423') in 0.031217 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Prefabs/Details/Textures/Grass_C_BaseColor.tif
+  artifactKey: Guid(696617d4dc7551d4cb58b7f30d022160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Prefabs/Details/Textures/Grass_C_BaseColor.tif using Guid(696617d4dc7551d4cb58b7f30d022160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '529b35b44362d7ca736bcdbd36ab4ca2') in 0.068171 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Prefabs/Details/Textures/Grass_C_Thickness.tif
+  artifactKey: Guid(5ac60e8e8739b1f4daeb70e1c662df49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Prefabs/Details/Textures/Grass_C_Thickness.tif using Guid(5ac60e8e8739b1f4daeb70e1c662df49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81fc71094a259f7e7e4fb8f950c66ae9') in 0.053550 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Prefabs/Details/Textures/Grass_A_BaseColor.tif
+  artifactKey: Guid(412b937bd5aa5024183fef71e9cf1042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Prefabs/Details/Textures/Grass_A_BaseColor.tif using Guid(412b937bd5aa5024183fef71e9cf1042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e06374c3e538f9f5feb23993a5b1ae30') in 0.058786 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Prefabs/Details/Textures/Bush_A_Normal.tif
+  artifactKey: Guid(e1ef57925b58e624bb0ddcc506f28e94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Prefabs/Details/Textures/Bush_A_Normal.tif using Guid(e1ef57925b58e624bb0ddcc506f28e94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3511599b0df925a7a51ab2be4d50fb2e') in 0.070666 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Prefabs/Details/Textures/Bush_Dry_Thickness.tif
+  artifactKey: Guid(100a50e8b1d0bc04b95bc2f03cb760db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Prefabs/Details/Textures/Bush_Dry_Thickness.tif using Guid(100a50e8b1d0bc04b95bc2f03cb760db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bd58c381d36c0bb1ead40add2b92d8f') in 0.059657 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Prefabs/Details/Textures/Bush_Dry_BaseColor.tif
+  artifactKey: Guid(a366a386d5147ee47b6111652608c240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Prefabs/Details/Textures/Bush_Dry_BaseColor.tif using Guid(a366a386d5147ee47b6111652608c240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad8da8c66a53e7380138920a2503d030') in 0.065952 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Prefabs/Details/Textures/Bush_Twig_MaskMap.tif
+  artifactKey: Guid(99c8d7f7d5b72054688fa02133cee2db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Prefabs/Details/Textures/Bush_Twig_MaskMap.tif using Guid(99c8d7f7d5b72054688fa02133cee2db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fae62955ae2c60f97a1112d3fd00d21c') in 0.067119 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Prefabs/Details/Textures/Grass_Dry_Normal.tif
+  artifactKey: Guid(17cc5677d5a413843b9003e53261c859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Prefabs/Details/Textures/Grass_Dry_Normal.tif using Guid(17cc5677d5a413843b9003e53261c859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5179d5941331fe45ce0e2a3e43beac02') in 0.096449 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Prefabs/Details/Textures/Shrub_MaskMap.tif
+  artifactKey: Guid(2ab7032a9caf5324489bb1d8ff18725d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Prefabs/Details/Textures/Shrub_MaskMap.tif using Guid(2ab7032a9caf5324489bb1d8ff18725d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1964096753f0c05dd75ad18627b933c6') in 0.052003 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Prefabs/Details/Textures/Grass_Dry_BaseColor.tif
+  artifactKey: Guid(2219c27af867fbf4f9dfdf66ee6ffd8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Prefabs/Details/Textures/Grass_Dry_BaseColor.tif using Guid(2219c27af867fbf4f9dfdf66ee6ffd8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82fdc10d2cf3af3030ec2806e25ea0b1') in 0.092779 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Prefabs/Details/Textures/Bush_Dry_MaskMap.tif
+  artifactKey: Guid(ba5d550271efae04b84eeb0e550be656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Prefabs/Details/Textures/Bush_Dry_MaskMap.tif using Guid(ba5d550271efae04b84eeb0e550be656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13acf006bbe763d8032725472d049198') in 0.104679 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Prefabs/Details/Textures/Grass_Dry_MaskMap.tif
+  artifactKey: Guid(d3cf4500414007c4c895584cfcf1fbc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Prefabs/Details/Textures/Grass_Dry_MaskMap.tif using Guid(d3cf4500414007c4c895584cfcf1fbc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd28a9e80746fc6120ba1edb9d1804b6a') in 0.048479 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Prefabs/Details/Textures/Fern_MaskMap.tif
+  artifactKey: Guid(d5a7b708862dd0a449b4bccbefdd2335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Prefabs/Details/Textures/Fern_MaskMap.tif using Guid(d5a7b708862dd0a449b4bccbefdd2335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86ba51f6f024326a8f8d1208487e73f8') in 0.088316 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Prefabs/Details/Textures/Heather_MaskMap.tif
+  artifactKey: Guid(2acdbd081c9f4e7448a4885ecf259aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Prefabs/Details/Textures/Heather_MaskMap.tif using Guid(2acdbd081c9f4e7448a4885ecf259aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a7819d08949581e8f66bd75c9aeb29b') in 0.067195 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Prefabs/Details/Textures/Heather_Normal.tif
+  artifactKey: Guid(b5680c218e8592f489953c2723e3aac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Prefabs/Details/Textures/Heather_Normal.tif using Guid(b5680c218e8592f489953c2723e3aac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae43dbf8a5d135ae14a54be717cdf8b2') in 0.082683 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Prefabs/Details/Textures/Grass_Dry_Thickness.tif
+  artifactKey: Guid(77efac6da14b90f48895b89d90b5ef3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Prefabs/Details/Textures/Grass_Dry_Thickness.tif using Guid(77efac6da14b90f48895b89d90b5ef3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a40dc6a08bc43e75be710db3ef40049a') in 0.052354 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Prefabs/Details/Textures/Grass_C_Normal.tif
+  artifactKey: Guid(ec6838d3bd80287449a69dc40380ebc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Prefabs/Details/Textures/Grass_C_Normal.tif using Guid(ec6838d3bd80287449a69dc40380ebc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '746a8f7f2ba55e158f1cd1fbfa7317a1') in 0.075859 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Prefabs/Details/Textures/Fern_BaseColor.tif
+  artifactKey: Guid(f3661c5aa3d7dc141aebd059ea67047b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Prefabs/Details/Textures/Fern_BaseColor.tif using Guid(f3661c5aa3d7dc141aebd059ea67047b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d1c5c1e5b3b28a8cd398bbf88774a16') in 0.049200 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Prefabs/Details/Textures/Fern_Normal.tif
+  artifactKey: Guid(8cb2914aba3e5d545bb189195869f9f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Prefabs/Details/Textures/Fern_Normal.tif using Guid(8cb2914aba3e5d545bb189195869f9f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '421badeff53f57ca1e11a6ee5d1b9d30') in 0.072219 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Prefabs/Details/Textures/Grass_A_Thickness.tif
+  artifactKey: Guid(5bdbe53dce2414e458937234dce49479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Prefabs/Details/Textures/Grass_A_Thickness.tif using Guid(5bdbe53dce2414e458937234dce49479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bfc51d81f5d9b4b789caa4fa3857f0f') in 0.070884 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Prefabs/Details/Textures/Bush_Dry_Normal.tif
+  artifactKey: Guid(03fe3ff010bcfb3418536e2f7896257b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Prefabs/Details/Textures/Bush_Dry_Normal.tif using Guid(03fe3ff010bcfb3418536e2f7896257b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59356d4794b6bf3243af759f3fbee988') in 0.108657 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Prefabs/Details/Textures/Bush_A_MaskMap.tif
+  artifactKey: Guid(0e1771a5cd057014db71494d5a458d40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Prefabs/Details/Textures/Bush_A_MaskMap.tif using Guid(0e1771a5cd057014db71494d5a458d40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ddb72ef83f82781d040279048be1278') in 0.199779 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Prefabs/Details/Textures/Grass_A_Normal.tif
+  artifactKey: Guid(9a1568052101f2f48ba76e7342adc3f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Prefabs/Details/Textures/Grass_A_Normal.tif using Guid(9a1568052101f2f48ba76e7342adc3f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4af5a454f679aed6ef1e38a3f03c35a1') in 0.096059 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.224373 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Prefabs/Details/Textures/Bush_Twig_BaseColor.tif
+  artifactKey: Guid(e46379dffbb1ffd4db4312b654ed68b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Prefabs/Details/Textures/Bush_Twig_BaseColor.tif using Guid(e46379dffbb1ffd4db4312b654ed68b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbba1ecb0b198a6e7ba825ca1b5514ac') in 0.068055 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Prefabs/Details/Textures/Heathe_BaseColor.tif
+  artifactKey: Guid(deb3a5099f3fc81408def7e176a5f5de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Prefabs/Details/Textures/Heathe_BaseColor.tif using Guid(deb3a5099f3fc81408def7e176a5f5de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '432df8cd8fa7dd832961b95086ae9574') in 0.065013 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/TerrainDemoScene_HDRP/Prefabs/Details/Textures/Fern_Thickness.tif
+  artifactKey: Guid(daa49585c030643489dad5c6e4680dca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainDemoScene_HDRP/Prefabs/Details/Textures/Fern_Thickness.tif using Guid(daa49585c030643489dad5c6e4680dca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a772face99475cb48c5f1c97653bb006') in 0.162390 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007867 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image F:\studing\sem7\Unity\GameProgLab2GroupIT-91\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image F:\studing\sem7\Unity\GameProgLab2GroupIT-91\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.24 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.887 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1887ms)
+		BeginReloadAssembly (289ms)
+			ExecutionOrderSort (1ms)
+			DisableScriptedObjects (70ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (80ms)
+		EndReloadAssembly (1479ms)
+			LoadAssemblies (104ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (406ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (99ms)
+			SetupLoadedEditorAssemblies (716ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (140ms)
+				ProcessInitializeOnLoadAttributes (513ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.85 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6259 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 81 unused Assets / (5.3 MB). Loaded Objects now: 7238.
+Memory consumption went from 297.4 MB to 292.1 MB.
+Total: 7.677300 ms (FindLiveObjects: 0.683000 ms CreateObjectMapping: 0.840400 ms MarkObjects: 4.334500 ms  DeleteObjects: 1.818000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007092 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image F:\studing\sem7\Unity\GameProgLab2GroupIT-91\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image F:\studing\sem7\Unity\GameProgLab2GroupIT-91\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.30 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.119 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2119ms)
+		BeginReloadAssembly (173ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (52ms)
+		EndReloadAssembly (1828ms)
+			LoadAssemblies (110ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (483ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (126ms)
+			SetupLoadedEditorAssemblies (871ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (158ms)
+				ProcessInitializeOnLoadAttributes (628ms)
+				ProcessInitializeOnLoadMethodAttributes (58ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (24ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6250 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 62 unused Assets / (5.3 MB). Loaded Objects now: 7253.
+Memory consumption went from 296.7 MB to 291.4 MB.
+Total: 5.609000 ms (FindLiveObjects: 0.534000 ms CreateObjectMapping: 0.494900 ms MarkObjects: 3.371300 ms  DeleteObjects: 1.207300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
